@@ -1,5 +1,5 @@
 Readme:
-    “Deployed website: https://github.com/anahita812/pui-hw/tree/main/solution-hw1/productgallery.html 
+    “Deployed website: https://anahita812.github.io/pui-hw/solution-hw1/productgallery.html
     Repository link: https://github.com/anahita812/pui-hw/tree/main/solution-hw1
 
 Citations:
