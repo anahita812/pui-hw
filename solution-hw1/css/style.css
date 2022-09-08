@@ -20,7 +20,7 @@
 
 .headerpicture {
   /* We want our image to shrink to a certain size */
-  width: 150px;
+  width: 170px;
 }
 
 /*text*/  
@@ -111,6 +111,7 @@
       padding-bottom: 5px;
       padding-left: 10px;
       padding-right: 10px;
+      margin-left: 10px;
       width: 100px;
       text-align: center;
       border-style: solid;
