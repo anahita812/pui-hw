@@ -1,0 +1,257 @@
+/*images*/ 
+
+.productpicture { 
+  /* Setting width of image on screen for the gallery page */
+  width: 230px;
+  border: 2px solid black;
+  align-self: center;
+}
+
+.productpicture2 {     
+  /* Setting width of image on screen for the detail page */
+  width: 590px;
+  border: 2px solid black;
+  margin-right: 100px;
+}    
+
+.productpicture3 { 
+  /* Setting width of image on screen for the cart page */
+  width: 100px;
+  border: 2px solid black;
+}
+
+.headerpicture {
+  /* We want our image to shrink to a certain size */
+  width: 400px;
+}
+
+/*text*/  
+
+  body {
+    /* Set font family and font size for our application. */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+
+  .largertext {
+    /* Set font family and font size for larger text in the application. */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+
+  .smallertext {
+    /* Set font size for smaller text in the application. */
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .headertext {
+    /* Setting header text */
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    margin-top: 50px;
+  }
+  
+  /*styling*/
+
+  p.border {
+    /* Setting header border */
+    border-style:solid;
+  }
+
+  .border {
+    /* Setting header border */
+    border-style:solid;
+  }
+
+  p.borderlower {
+    /* Setting lower border */
+    border-style:solid;
+    margin-left: 400px;
+  }
+
+  p {
+    text-align: center;  
+  }
+
+  .centerproducts {
+    text-align: center; 
+    font-size: x-large; 
+  }
+
+  .rightproducts {
+    text-align: right; 
+    font-size: x-large; 
+  }
+
+  .leftcenter {
+  /* block to move text left of center */
+      display: inline-block;
+      text-align: left;
+  }
+
+ .prodborder {
+  /* block to highlight */
+ 
+  margin-left: 20px;  
+  margin-right: 20px;
+  margin-bottom: 40px;
+  padding-top: 5px;
+    padding-left: 2px;
+    width:245px;
+  }
+
+ 
+  .prodborder:hover {
+  /* highlighter */
+      background: #FFFF00;
+      font-weight: bold;
+  }
+
+  .boldtext {
+    /* make bold */
+      font-weight: bold;
+  }
+
+  .regulartext {
+    /* make bold */
+      font-weight:normal;
+  }
+
+  .highlightedcart {
+    /* highlight text on the cart page */
+      background: #FFFF00;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+      border-style: solid;
+      font-weight: bold;
+      font-size: xx-large;
+      margin-right: 100px;
+  }
+
+  #glazings {
+    /* set width on drop down */
+      width:300px;  
+      font-size: x-large;  
+  }
+
+  #packsize {
+    /* set width on drop down */
+      width:300px;
+      font-weight: 100; 
+      font-size: x-large; 
+  
+  }
+
+  .highlighter {
+    /* get highlighted */
+    background-color: #FFFF00;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .blacklink {
+    color:black;
+    text-decoration: underline;
+  }
+
+  .transparentlink {
+    text-decoration: none;
+    color: black;
+    margin-right: 100px;
+  }
+
+  /*flexcontainer information*/
+  .flexbox {
+    display: flex;
+  }
+
+
+  .containerbig {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .containerbigger {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+
+  .container {
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+    margin-right: 50px;
+  }
+
+  .threecolumn{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .tworowcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+ 
+  .footer{
+    display: flex;
+    height:400px;
+    flex-flow: column;
+    align-items: flex-end;
+      }
+
+      .sep{
+    margin-right: 100px;
+    font-size: x-large;
+    line-height: 100px;
+      }
+
+    .margin{
+      margin-right: 450px;
+    }
+
+    .leftcenter1 {
+      /* block to move text left of center */
+          display: flex;
+          text-align: left;
+          justify-content: flex-end;
+          align-items: center;
+      }
+
+      .kidsofcontainer {
+        margin-right: 83px;
+        font-size: x-large;
+        flex-basis: 200px;
+
+      }
+
+      
+      .kidsofcontainer1 {
+        margin-right: 83px;
+        font-size: x-large;
+        flex-basis: 400px;
+      }
+
+      
+
+
+
+
+
