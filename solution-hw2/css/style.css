@@ -21,8 +21,8 @@
 }
 
 .headerpicture {
-  /* We want our image to shrink to a certain size */
-  width: 400px;
+  width: 350px;
+  height: 200px;
 }
 
 /*text*/  
@@ -42,7 +42,7 @@
   .smallertext {
     /* Set font size for smaller text in the application. */
     font-size: 10px;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
   }
 
@@ -55,6 +55,10 @@
     justify-content: flex-end;
     align-content: flex-start;
     margin-top: 50px;
+  }
+
+  .box{
+    flex:1 0 auto;
   }
   
   /*styling*/
@@ -72,7 +76,8 @@
   p.borderlower {
     /* Setting lower border */
     border-style:solid;
-    margin-left: 400px;
+    width: 68%;
+    margin-left: 32.5%;
   }
 
   p {
@@ -91,7 +96,6 @@
 
   .leftcenter {
   /* block to move text left of center */
-      display: inline-block;
       text-align: left;
   }
 
@@ -102,8 +106,8 @@
   margin-right: 20px;
   margin-bottom: 40px;
   padding-top: 5px;
-    padding-left: 2px;
-    width:245px;
+    padding-left: 7px;
+    width:240px;
   }
 
  
@@ -133,8 +137,37 @@
       text-align: center;
       border-style: solid;
       font-weight: bold;
-      font-size: xx-large;
-      margin-right: 100px;
+      font-size: x-large;
+      width: 125px;
+  }
+
+  .highlightedcart1 {
+    /* highlight text on the cart page */
+      background: #FFFF00;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+      border-style: solid;
+      font-weight: bold;
+      font-size: x-large;
+      width: 30%;
+      margin-right: 5%;
+  }
+
+  .checkoutbox {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .cartfooter {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cart {
+    display: flex;
   }
 
   #glazings {
@@ -173,6 +206,12 @@
   /*flexcontainer information*/
   .flexbox {
     display: flex;
+  }
+
+  .header {
+    width: 32%;
+    display: flex;
+    justify-content:space-around;
   }
 
 
@@ -218,37 +257,63 @@
       }
 
       .sep{
-    margin-right: 100px;
     font-size: x-large;
     line-height: 100px;
+    width: 100px;
       }
+
+      .sep1{
+        font-size: x-large;
+        line-height: 100px;
+        width: 100px;
+          }
 
     .margin{
       margin-right: 450px;
+    }
+    .margin1{
+      margin-right: 50px;
     }
 
     .leftcenter1 {
       /* block to move text left of center */
           display: flex;
           text-align: left;
-          justify-content: flex-end;
+          justify-content: flex-start;
           align-items: center;
+          flex-basis: 70% ;
+          height: 150px;
       }
 
       .kidsofcontainer {
-        margin-right: 83px;
         font-size: x-large;
-        flex-basis: 200px;
-
+      /*  flex-basis: 200px;*/
+        text-align:left;
+        width: 100px;
       }
+
+      .kidsofcontainer2 {
+        font-size: x-large;
+      /*  flex-basis: 200px;*/
+        text-align:left;
+        margin-right: 4.5%;
+      }
+      
 
       
       .kidsofcontainer1 {
         margin-right: 83px;
         font-size: x-large;
-        flex-basis: 400px;
+        flex:1 0 auto;
       }
 
+      .containercart {
+        display: flex;
+      }
+
+      .containerempty {
+        flex-basis: 34%;
+      }
       
 
 
