@@ -117,6 +117,12 @@
     /* make bold */
       font-weight: bold;
   }
+  .cartflex {
+    /* make and flex */
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
+  }
 
   .regulartext {
     /* make bold */
@@ -148,8 +154,7 @@
       border-style: solid;
       font-weight: bold;
       font-size: x-large;
-      width: 30%;
-      margin-right: 5%;
+      width: auto;
   }
 
   .checkoutbox {

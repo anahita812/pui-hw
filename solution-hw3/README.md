@@ -1,6 +1,6 @@
 Readme:
     Deployed website: https://anahita812.github.io/pui-hw/solution-hw3/productgallery.html
-    Repository link: https://github.com/anahita812/pui-hw/tree/main/solution-hw2
+    Repository link: https://github.com/anahita812/pui-hw/tree/main/solution-hw3
 
 Citations:
     https://stackoverflow.com/questions/8674618/adding-options-to-select-with-javascript
