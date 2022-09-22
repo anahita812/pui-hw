@@ -1,62 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
   <meta charset="UTF-8">
   <title>Detail</title>
   <link rel="stylesheet" href="css/style.css">
   <script defer src="js/app.js"></script>
-  </head>
-  <body>
-
-<!-- header section -->
-
-<div class="flexbox">
-  <div class="header">
-    <a href="./productgallery.html">
-    <img class="headerpicture" src="logo/logo-01.svg" alt="bun shop logo"/></a>
-  </div> 
-  <div class="containerbigger">
-    <div class="headertext">
-      <a class="transparentlinkproduct" href="productgallery.html">PRODUCTS</a>
-      <a class="transparentlink" href="shoppingcart.html">CART</a> 
-    </div>
-      <div class="border"></div>
-    <div class="container2">
-      <span class="largertext">Original cinnamon roll</span>
-    </div>
-  </div>
-</div>
-
-
-<!-- body section -->
-
-<div class="container">
-  <div class="containersmall">
-        <img class="productpicture2" src="./products/original-cinnamon-roll.jpg" alt="original cinnamon roll"/>
-        <br> <br> <br>
-  </div>
-    
-  <div class="centerproducts">
-    <div class="leftcenter">
-       Customize our delicious, <br>hand-made cinnamon roll to <br>your liking!<br> 
-       <br><br><br><br>
-       <label for="glazings">Glazing:</label><br>
-       <select name="glazings" id="glazings">
-       </select>
-       <br><br><br>
-       <label for="packsize">Packsize:</label> <br>
-       <select name="packsize" id="packsize">
-      </select>
-      <br> <br><br><br><br><br><br>
-      <div class="cartflex">
-        <div id="price"> $2.49 </div>
-        <div class="highlightedcart1">Add to Cart</div>  
+</head>
+<body>
+  
+  <!-- header section where I add picture and nav links -->
+  
+  <div class="flexbox">
+    <div class="header">
+      <a href="./productgallery.html">
+        <img class="headerpicture" src="logo/logo-01.svg" alt="bun shop logo"/></a>
+      </div> 
+      <div class="containerbigger">
+        <div class="headertext">
+          <a class="transparentlinkproduct" href="productgallery.html">PRODUCTS</a>
+          <a class="transparentlink" href="shoppingcart.html">CART</a> 
+        </div>
+        <div class="border"></div>
+        <div class="container2">
+          <span class="largertext">Original cinnamon roll</span>
+        </div>
       </div>
-      <br><br><br>
     </div>
-  </div>
-</div>
-
-
-</body>
-</html>
+    
+    
+    <!-- body section where I create options and flexboxes -->
+    
+    <div class="container">
+      <div class="containersmall">
+        <img class="productpicture2" src="./products/original-cinnamon-roll.jpg" alt="original cinnamon roll"/>
+        <div margindown></div>
+      </div>
+      
+      <div class="centerproducts">
+        <div class="leftcenter">
+          Customize our delicious, <div>hand-made cinnamon roll to </div><div>your liking!</div>
+          <div class="margindown"></div>
+          <label for="glazings">Glazing:</label>
+          <div></div>
+          <select name="glazings" id="glazings">
+          </select>
+          <div class="margindownless"></div>
+          <label for="packsize">Packsize:</label>
+          <div></div>
+          <select name="packsize" id="packsize">
+          </select>
+          <div class="margindown"></div>
+          <div class="cartflex">
+            <div id="price"> $2.49 </div>
+            <div class="highlightedcart1">Add to Cart</div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>

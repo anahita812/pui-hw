@@ -1,4 +1,3 @@
-
 //Storing current state of option dropdowns
 let currentglazingindex = 0;
 let currentpacksizeindex = 0;
@@ -39,16 +38,19 @@ for (let i = 0; i<cinammonbunpacksize.length;i++){
 document.querySelector("#glazings").addEventListener('change', function() {
     let idx = cinammonbunglazing.findIndex(x => x.glazing ===this.value);
     currentglazingindex = idx;
-    updateprice()
-  });
+    updateprice();
+});
 
 //What to do if packsize is updated
-  document.querySelector("#packsize").addEventListener('change', function() {
+document.querySelector("#packsize").addEventListener('change', function() {
     let idx = cinammonbunpacksize.findIndex(x => x.size ===this.value);
     currentpacksizeindex = idx;
-    updateprice() });
+    updateprice();
+});
 
 //function for updating the number 
 function updateprice(){
-    document.querySelector("#price").innerHTML = "$"+((2.49 + (cinammonbunglazing[currentglazingindex].price))*(cinammonbunpacksize[currentpacksizeindex].adjustment)).toFixed(2);
+    let priceaddition = cinammonbunglazing[currentglazingindex].price;
+    let packsizeadj = cinammonbunpacksize[currentpacksizeindex].adjustment;
+    document.querySelector("#price").innerHTML = "$"+((2.49 + priceaddition)*packsizeadj).toFixed(2);
 }
