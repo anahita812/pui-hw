@@ -204,6 +204,42 @@ p {
   margin-right: 100px;
 }
 
+.transparentlinkproduct {
+  text-decoration: none;
+  background-color: #FFFF00;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-right: 100px;
+  color:black;
+}
+
+.sep{
+  font-size: x-large;
+  line-height: 100px;
+  width: 100px;
+}
+
+.sep1{
+  font-size: x-large;
+  line-height: 100px;
+  width: 100px;
+}
+
+.margin{
+  margin-right: 450px;
+}
+.margin1{
+  margin-right: 45px;
+}
+
+.margindown{
+  margin-bottom: 150px;
+}
+
+.margindownless{
+  margin-bottom: 60px;
+}
+
 /*flexcontainer information*/
 .flexbox {
   display: flex;
@@ -214,7 +250,6 @@ p {
   display: flex;
   justify-content:space-around;
 }
-
 
 .containerbig {
   display: flex;
@@ -257,34 +292,6 @@ p {
   align-items: flex-end;
 }
 
-.sep{
-  font-size: x-large;
-  line-height: 100px;
-  width: 100px;
-}
-
-.sep1{
-  font-size: x-large;
-  line-height: 100px;
-  width: 100px;
-}
-
-.margin{
-  margin-right: 450px;
-}
-.margin1{
-  margin-right: 45px;
-}
-
-.margindown{
-  margin-bottom: 150px;
-}
-
-.margindownless{
-  margin-bottom: 60px;
-}
-
-
 .leftcenter1 {
   /* block to move text left of center */
   display: flex;
@@ -310,7 +317,6 @@ p {
 }
 
 
-
 .kidsofcontainer1 {
   margin-right: 83px;
   font-size: x-large;
@@ -325,13 +331,6 @@ p {
   flex-basis: 34%;
 }
 
-.transparentlinkproduct {
-  text-decoration: none;
-  background-color: #FFFF00;
-  font-weight: bold;
-  margin-left: 100px;
-  margin-right: 100px;
-}
 
 
 
