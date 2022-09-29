@@ -14,6 +14,21 @@
   margin-right: 100px;
 }    
 
+.transparentlinkcart{
+  text-decoration: none;
+  color: black;
+  margin-left: 100px;
+}
+
+.transparentlinkproductcart{
+  text-decoration: none;
+  background-color: #FFFF00;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-right: 100px;
+  color:black;
+}
+
 .productpicture3 { 
   /* Setting width of image on screen for the cart page */
   width: 100px;

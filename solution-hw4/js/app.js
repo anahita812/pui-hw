@@ -46,18 +46,22 @@ for (let i = 0; i < cinammonbunpacksize.length; i++) {
 }
 
 //function for updating the number 
-document.querySelector("#glazings").addEventListener('change', function () {
+
+function onglazingupdate() {
     let idx = cinammonbunglazing.findIndex(x => x.glazing === this.value);
     currentglazingindex = idx;
     updateprice()
-});
+}
 
 //function for updating the number 
-document.querySelector("#packsize").addEventListener('change', function () {
+function onpacksizeupdate() {
     let idx = cinammonbunpacksize.findIndex(x => x.size === this.value);
     currentpacksizeindex = idx;
     updateprice()
-});
+}
+
+document.querySelector("#packsize").addEventListener('change', onpacksizeupdate);
+document.querySelector("#glazings").addEventListener('change', onglazingupdate);
 
 //storeconstants
 const queryString = window.location.search;
@@ -91,5 +95,5 @@ function addtocart() {
     let packsizenum = cinammonbunpacksize[currentpacksizeindex].size;
     let addedRoll = new Roll(currentrollType, glaze, packsizenum, currentprice);
     cart.push(addedRoll);
-    console.log(cart);
+    console.log("cart",cart);
 }
