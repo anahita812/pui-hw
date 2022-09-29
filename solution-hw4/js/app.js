@@ -87,7 +87,6 @@ function updateprice() {
 
 //function for updating array
 function addtocart() {
-    console.log("test");
     let glaze = cinammonbunglazing[currentglazingindex].glazing;
     let packsizenum = cinammonbunpacksize[currentpacksizeindex].size;
     let addedRoll = new Roll(currentrollType, glaze, packsizenum, currentprice);
