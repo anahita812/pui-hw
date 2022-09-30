@@ -1,3 +1,4 @@
+//variable section
 let currentglazingindex = 0;
 let currentpacksizeindex = 0;
 let cart = [];
@@ -11,6 +12,14 @@ class Roll {
         this.basePrice = basePrice;
     }
 }
+
+//storeconstants
+const queryString = window.location.search;
+const params = new URLSearchParams(queryString);
+const currentrollType = params.get('roll');
+const currentprice = rolls[currentrollType].basePrice;
+const currentimage = rolls[currentrollType].imageFile;
+
 
 //Populate option dropdowns
 const cinammonbunglazing = [
@@ -45,8 +54,23 @@ for (let i = 0; i < cinammonbunpacksize.length; i++) {
     select2.appendChild(opt);
 }
 
-//function for updating the number 
+//update section
+document.querySelector("#packsize").addEventListener('change', onpacksizeupdate);
+document.querySelector("#glazings").addEventListener('change', onglazingupdate);
 
+// Update the header text
+const headerElement = document.querySelector('.largertext');
+headerElement.innerText = currentrollType + " Cinnamon Roll";
+
+// Update the image
+let ImageElement = document.querySelector('.productpicture2');
+ImageElement.src = './products/' + currentimage;
+
+// Update the base price
+document.querySelector("#price").innerHTML = "$" + currentprice;
+
+//function update
+//function for updating the number 
 function onglazingupdate() {
     let idx = cinammonbunglazing.findIndex(x => x.glazing === this.value);
     currentglazingindex = idx;
@@ -59,28 +83,6 @@ function onpacksizeupdate() {
     currentpacksizeindex = idx;
     updateprice()
 }
-
-document.querySelector("#packsize").addEventListener('change', onpacksizeupdate);
-document.querySelector("#glazings").addEventListener('change', onglazingupdate);
-
-//storeconstants
-const queryString = window.location.search;
-const params = new URLSearchParams(queryString);
-const currentrollType = params.get('roll');
-const currentprice = rolls[currentrollType].basePrice;
-const currentimage = rolls[currentrollType].imageFile;
-
-
-// Update the header text
-const headerElement = document.querySelector('.largertext');
-headerElement.innerText = currentrollType + " Cinnamon Roll";
-
-// Update the image
-let ImageElement = document.querySelector('.productpicture2');
-ImageElement.src = './products/' + currentimage;
-
-// Update the base price
-document.querySelector("#price").innerHTML = "$" + currentprice;
 
 //function for updating the calculated price at the bottom
 function updateprice() {
