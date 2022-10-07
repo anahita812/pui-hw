@@ -59,6 +59,7 @@ body {
   font-size: 10px;
   text-align: left;
   font-weight: bold;
+  text-decoration: underline;
 }
 
 .headertext {
