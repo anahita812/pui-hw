@@ -231,13 +231,19 @@ p {
 .sep{
   font-size: x-large;
   line-height: 100px;
-  width: 100px;
+  width: 50px;
+  text-align: right;
+  flex-grow: 1.15;
+  margin-right: 300px;
+
 }
 
 .sep1{
   font-size: x-large;
   line-height: 100px;
-  width: 100px;
+  text-align: right;
+  flex-grow: 1;
+  margin-right: 70px;
 }
 
 .margin{
@@ -346,16 +352,21 @@ p {
 
 .containercart {
   display: flex;
+  justify-content:flex-end;
 }
 
 .containercart2 {
   display: flex;
 }
 
-
 .containerempty {
   flex-basis: 34%;
 }
+
+.containerempty1 {
+  flex:1 0 auto;
+}
+
 
 
 
