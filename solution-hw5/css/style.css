@@ -232,9 +232,8 @@ p {
   font-size: x-large;
   line-height: 100px;
   width: 50px;
-  text-align: right;
+  text-align: left;
   flex-grow: 1.15;
-  margin-right: 300px;
 
 }
 
@@ -363,8 +362,8 @@ p {
   flex-basis: 34%;
 }
 
-.containerempty1 {
-  flex:1 0 auto;
+.containeremptyfooter {
+  flex-basis: 44%;
 }
 
 

@@ -41,7 +41,6 @@ function addtocart() {
     let packsizenum = cinammonbunpacksize[currentpacksizeindex].size;
     let addedRoll = new Roll(currentrollType, glaze, packsizenum, currentprice);
     cart.push(addedRoll);
-    console.log("cart", cart);
 }
 
 //function to update and push
@@ -77,7 +76,6 @@ function displaycart(rollitem) {
     this.priceupdate = cloned.querySelector('.kidsofcontainer');
     this.priceupdate.innerText = "$ " + rollitem.calculatedprice;
     let button = cloned.querySelector('.smallertext');
-    console.log(button);
     button.addEventListener('click', () => {
         removecartitem(cloned, rollitem);
     });
@@ -94,24 +92,21 @@ function updatetotalprice() {
     }
     let priceholder = document.querySelector('.sep1');
     priceholder.innerText = "$" + price;
-    console.log("price", price)
 }
+
 //initialize cart1
 for (let i = 0; i < cart1.length; i++) {
-    console.log(cart1[i]);
     displaycart(cart1[i]);
 }
 
 //removefunction
 function removecartitem(cloned, rollitem) {
-    console.log("remover");
     for (let i = 0; i < cart1.length; i++) {
         if (cart1[i] == rollitem) {
             cart1.splice(i, 1);
             break;
         }
     }
-    console.log(cart1);
     cloned.remove();
     updatetotalprice();
 }
