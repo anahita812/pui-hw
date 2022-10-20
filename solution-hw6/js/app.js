@@ -123,6 +123,6 @@ function checkinitializecart() {
     let shoppingcart = JSON.parse(localStorage.getItem("shoppingcart"));
     if (shoppingcart == null) {
         shoppingcart = []
-        localStorage.setItem("sh2oppingcart", JSON.stringify(shoppingcart));
+        localStorage.setItem("shoppingcart", JSON.stringify(shoppingcart));
     }
 }
