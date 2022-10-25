@@ -68,7 +68,8 @@ function removecartitem(cloned, rollitem) {
         if (JSON.stringify(reconstructedroll) === JSON.stringify(rollremoved)) {
             shoppingcart1.splice(i, 1);
             localStorage.setItem("shoppingcart", JSON.stringify(shoppingcart1));
-            console.log("Shopping Cart: ",localStorage.getItem("shoppingcart"));
+            console.log("Shopping Cart Pushed to Local Storage: ", shoppingcart1);
+            console.log("Shopping Cart String Stored In Local Storage: ",localStorage.getItem("shoppingcart"));
             break;
         }
     }

@@ -78,14 +78,14 @@ document.querySelector("#price").innerHTML = "$" + currentprice;
 function onglazingupdate() {
     let idx = cinammonbunglazing.findIndex(x => x.glazing === this.value);
     currentglazingindex = idx;
-    updateprice()
+    updateprice();
 }
 
 //function for updating the number 
 function onpacksizeupdate() {
     let idx = cinammonbunpacksize.findIndex(x => x.size === this.value);
     currentpacksizeindex = idx;
-    updateprice()
+    updateprice();
 }
 
 //function for updating the calculated price at the bottom
@@ -98,7 +98,7 @@ function updateprice() {
 function addtocart() {
     let glaze = cinammonbunglazing[currentglazingindex].glazing;
     let packsizenum = cinammonbunpacksize[currentpacksizeindex].size;
-    updatecart(glaze, packsizenum, currentprice, currentrollType)
+    updatecart(glaze, packsizenum, currentprice, currentrollType);
 }
 
 
@@ -113,7 +113,8 @@ function updatecart(glaze, packsizenum, base1, rolltype) {
     let shoppingcart = JSON.parse(localStorage.getItem("shoppingcart"));
     shoppingcart.push(addedRoll);
     localStorage.setItem("shoppingcart", JSON.stringify(shoppingcart));
-    console.log("Shopping Cart: ",localStorage.getItem("shoppingcart"));
+    console.log("Shopping Cart Pushed to Local Storage: ", shoppingcart);
+    console.log("Shopping Cart String Stored In Local Storage: ",localStorage.getItem("shoppingcart"));
 
 }
 
@@ -122,7 +123,7 @@ function updatecart(glaze, packsizenum, base1, rolltype) {
 function checkinitializecart() {
     let shoppingcart = JSON.parse(localStorage.getItem("shoppingcart"));
     if (shoppingcart == null) {
-        shoppingcart = []
+        shoppingcart = [];
         localStorage.setItem("shoppingcart", JSON.stringify(shoppingcart));
     }
 }
