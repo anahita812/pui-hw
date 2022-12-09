@@ -7,19 +7,19 @@ let imagemapping = {
     },
     "Lotus": {
         "TextContent":"Lotus Biscoff Stuffed",
-        "imageFile": "products/lotus biscoff stuffed.jpg"
+        "imageFile": "products/lotusbiscoffstuffed.jpg"
     },
     "DarkChocolate": {
         "TextContent":"Dark Chocolate Chunk",
-        "imageFile": "products/dark choc.jpg"
+        "imageFile": "products/darkchoc.jpg"
     },
     "WhiteChocolate": {
         "TextContent":"White Chocolate Chunk",
-        "imageFile": "products/white choc.jpg"
+        "imageFile": "products/whitechoc.jpg"
     },
     "nuthaz": {
         "TextContent":"Nutella Hazelnut Stuffed",
-        "imageFile": "products/nutella hazelnut.jpg"
+        "imageFile": "products/nutellahazelnut.jpg"
     },
     "Pista": {
         "TextContent":"Pistachio White Chocolate",
