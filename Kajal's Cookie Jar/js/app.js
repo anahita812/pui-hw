@@ -51,3 +51,13 @@ document.querySelectorAll('.slider__navlink').forEach((bullet, bulletIndex) => {
     })
 })
 
+//image on menu page 
+
+
+function before(){
+    document.getElementById('myImage')
+    .src="img/photo1.jpg";
+    document.getElementById('message')
+    .innerHTML="Hii! GeeksforGeeks people";
+}
+

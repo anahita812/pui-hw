@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script defer src="js/app.js"></script>
+    <script defer src="js/menu.js"></script>
 </head>
 
 
@@ -24,7 +24,7 @@
                   <a href="menu.html" class="headertext1">Menu</a>
               </li>
               <li class="nav-item">
-                  <a href="about.html" class="headertext1">Our Story</a>
+                  <a href="about.html" class="headertext1">About</a>
               </li>
           </ul>
           <div class="hamburger">
@@ -38,28 +38,56 @@
 
   <!-- body section where I create options and flexboxes -->
 
-<body>
-    <div class="title">Cookies</div>
-    <div class = "h2text"> Peanut Brittle</div>
+<body >
+  <div class="menupage">
+    <div class="menucontained">
+    <div class="menutext">
+      <div class="title1">OUR MENU</div>
+
+      <div class="title1">Cookies</div>
+      <div id="menuitem" onclick="cookiedisplay('Peanut')">
+    <div class = "h2text margin2"> Peanut Brittle</div>
     <div class = "bodytext"> Our peanut butter dough packed with chunks of homemade peanut brittle &
       topped with flaky sea salt
        </div>
-    <div class = "h2text"> Lotus Biscoff Stuffed</div>
+      </div>
+      <div id="menuitem" onclick="cookiedisplay('Lotus')">
+    <div class = "h2text marginfix"> Lotus Biscoff Stuffed</div>
     <div class = "bodytext"> Our classic cookie dough with a gooey biscoff centre, white
       chocolate chunks & crushed lotus biscuits </div>
-      <div class = "h2text"> Dark Chocolate Chunk</div>
+      </div>
+      <div id="menuitem" onclick="cookiedisplay('DarkChocolate')">
+      <div class = "h2text marginfix"> Dark Chocolate Chunk</div>
     <div class = "bodytext"> Our classic brown butter cookie dough packed with premium dark
       chocolate chunks      
       </div>
-      <div class = "h2text"> White Chocolate Chunk</div>
+      </div>
+      <div id="menuitem" onclick="cookiedisplay('WhiteChocolate')">
+      <div class = "h2text marginfix"> White Chocolate Chunk</div>
       <div class = "bodytext"> Our classic brown butter cookie dough packed with premium white
         chocolate chunks</div>
-        <div class = "h2text"> Nutella Hazelnut Stuffed</div>
+        </div>
+        <div id="menuitem" onclick="cookiedisplay('nuthaz')">
+        <div class = "h2text marginfix"> Nutella Hazelnut Stuffed</div>
       <div class = "bodytext"> A marbled cookie dough with a gooey nutella centre, chopped
         hazelnuts & dark chocolate chunks </div>
-        <div class = "h2text"> Pistachio White Chocolate</div>
+        </div>
+        <div id="menuitem" onclick="cookiedisplay('Pista')">
+        <div class = "h2text marginfix"> Pistachio White Chocolate</div>
       <div class = "bodytext"> A soft & chewy cookie loaded with crunchy pistachios & white
         chocolate chunks</div>
+        </div>
+      </div>
+      <div class="picturemenu">
+        <div class = "h2text"> PICTURE THIS</div>
+        <div class = "h2text margin" id="textlocation"> Dark Chocolate Chunk</div>
+        <img class = "contentpicture1 margin" id="myImage" src="products/oreocookie.png" alt="dark chocolate" />
+        <div>
+        <a class="button bodytext margin marginfix" href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F2347049162291&e=ATMye8etpe2blI9n122IPFvBNi_eMxCnaOVAbwvuwiL3xnlzkemfQq8_UJ5M5Sz5jHsphF_e81SG2TQTa0-u7w">ORDER NOW</a>
+      </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

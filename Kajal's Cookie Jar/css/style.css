@@ -124,17 +124,20 @@ h1{
   text-align: center;
   color:white;
 }
+
 body {
   background-color: #F9F0ED;
 }
 
-
+.menupage {
+  background: linear-gradient(90deg, #FEE2ED 60%, #CFACBA 40%);
+}
 
 .slider {
   display: block;
   position: relative;
-  width: 50%;
-  height: 50%;
+  width: 40%;
+  height: 40%;
   max-width: 900px;
   margin: 10px;
   background-color: blue;
@@ -253,10 +256,22 @@ width: 100%;
 }
 }
 
+.section1 {
+  background-color: #FEE2ED;
+  display: flex;
+  padding:50px;
+  justify-content: center;
+  align-items: center;
+}
+
 .section2 {
   background-color: #CFACBA;
-  opacity: 0;
+  opacity: 0.3;
   transition: .3s;
+  display: flex;
+  align-items: center;
+  padding:50px;
+
 }
 
 .section2.show {
@@ -265,8 +280,14 @@ width: 100%;
 
 .section3 {
   background-color: #FEE2ED;
-  opacity: 0;
+  opacity: 0.3;
   transition: .3s;
+  display: flex;
+  align-items: center;
+  padding:50px;
+  justify-content: center;
+
+
 }
 
 .section3.show {
@@ -292,11 +313,43 @@ width: 100%;
 .contentpicture2 {
   width: 20%;
   margin:5%;
+}
+
+.contentpictureabout {
+  width: 60%;
+  margin:5%;
+  border-radius: 10%;
+}
+
+.contentpicturetitle{
+  width: 80%;
+  margin:5%;
 
 }
 
-.margin1{
+
+.margin{
   margin-top: 5%;
+}
+
+.marginsmallfix{
+  margin-top: 20px;
+}
+
+
+.marginfix{
+  margin-top: 20px;
+}
+
+.margin2{
+  margin-top: 20px;
+}
+
+.marginleft{
+  margin-left: 60px;
+}
+.marginright{
+  margin-right: 20px;
 }
 /*text*/  
 
@@ -305,6 +358,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
 }
+header {
+  /* Set font family and font size for our application. */
+  background-color: #F9F0ED;
+}
+
 
 .headertext {
   /* Setting header text */
@@ -320,6 +378,7 @@ body {
   /* Setting header text */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 20px;
+  color: #9A526F;
 }
 
 .title {
@@ -333,6 +392,17 @@ body {
   color: #9A526F;
 }
 
+.title1 {
+  /* Setting header text */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: left;
+  padding-top: 5%;
+  font-weight: bold;
+  color: #9A526F;
+}
+
 .h2text {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 30px;
@@ -340,7 +410,6 @@ body {
   justify-content: left;
   font-weight: bold;
   color: #9A526F;
-  margin-left: 30px;
 
 }
 
@@ -351,7 +420,6 @@ body {
   justify-content: left;
   font-weight:lighter;
   color: #9A526F;
-  margin-left: 30px;
 }
 
 
@@ -359,6 +427,11 @@ body {
   .title {
     font-size: 20px;
   }
+
+  .title1 {
+    font-size: 20px;
+  }
+
 
   .underline {
       width: 100%;
@@ -391,6 +464,20 @@ body {
 
 
 /*styling*/
+
+
+.button {
+  background-color: #9A526F;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
 
 
@@ -473,9 +560,56 @@ body {
   display:flex;
 }
 
+.menucontained {
+  display:flex;
+  padding: 20px;
+}
+
+.menutext {
+  flex: 55%;
+  justify-content: left;
+  display:flex;
+  flex-direction: column;
+  padding-right: 5%;
+  padding-left: 20px;
+
+}
+
+.picturemenu {
+  flex: 40%;
+  margin-top:5%;
+  margin-bottom:5%;
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.inner {
+  flex:30%;
+  display: flex;
+}
 
 
+.inner2 {
+  flex:50%;
+  display: flex;
+  flex-direction: column;
+}
 
+#menuitem {
+  background-color: blueviolet;
+  border-width: 2px;
+  border-color: aqua;
+
+}
+
+#menuitem:hover {
+  background-color: yellow;
+  cursor: pointer;
+  border-radius: 10px;
+}
 
 
 
