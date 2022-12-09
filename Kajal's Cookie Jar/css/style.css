@@ -598,12 +598,7 @@ header {
   flex-direction: column;
 }
 
-#menuitem {
-  background-color: blueviolet;
-  border-width: 2px;
-  border-color: aqua;
 
-}
 
 #menuitem:hover {
   background-color: yellow;
