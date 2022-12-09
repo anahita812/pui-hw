@@ -304,9 +304,9 @@ width: 100%;
 }
 
 .contentpicture1 {
-  width: 50%;
+  width: 30%;
   animation: bounceIn; /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 4s; /* don't forget to set a duration! */
+  animation-duration: 10s; /* don't forget to set a duration! */
   border-radius: 20%;
 }
 
@@ -330,6 +330,9 @@ width: 100%;
 
 .margin{
   margin-top: 5%;
+}
+.marginbottom{
+  margin-bottom: 5%;
 }
 
 .marginsmallfix{
@@ -598,12 +601,38 @@ header {
   flex-direction: column;
 }
 
+#menuitem {
+  border-radius: 10px;
+  background-color: #B55C80;
+}
+
+#menutext {
+  color: white
+}
 
 
 #menuitem:hover {
-  background-color: yellow;
+  border:1px solid black;
   cursor: pointer;
   border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .menucontained{ 
+  flex-direction: column-reverse;
+}
+
+.picturemenu{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #FEE2ED;
+  padding-bottom: 0px;
+}
+
+.menupage{
+  background: linear-gradient(90deg, #FEE2ED 100%, #CFACBA 00%)
+}
 }
 
 
