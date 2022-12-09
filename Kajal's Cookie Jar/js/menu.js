@@ -11,15 +11,15 @@ let imagemapping = {
     },
     "DarkChocolate": {
         "TextContent":"Dark Chocolate Chunk",
-        "imageFile": "products/darkchoc.jpg"
+        "imageFile": "products/darkchoc.png"
     },
     "WhiteChocolate": {
         "TextContent":"White Chocolate Chunk",
-        "imageFile": "products/whitechoc.jpg"
+        "imageFile": "products/whitechoc.png"
     },
     "nuthaz": {
         "TextContent":"Nutella Hazelnut Stuffed",
-        "imageFile": "products/nutellahazelnut.jpg"
+        "imageFile": "products/nutellahazelnut.png"
     },
     "Pista": {
         "TextContent":"Pistachio White Chocolate",
