@@ -7,7 +7,7 @@ let imagemapping = {
     },
     "Lotus": {
         "TextContent":"Lotus Biscoff Stuffed",
-        "imageFile": "products/lotusbiscoffstuffed.jpg"
+        "imageFile": "products/lotusbiscoffstuffed.png"
     },
     "DarkChocolate": {
         "TextContent":"Dark Chocolate Chunk",
