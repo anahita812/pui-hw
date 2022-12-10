@@ -52,6 +52,8 @@ let imagemapping = {
     }
 };
 
+//function to display image on menu page 
+
 
 function cookiedisplay(cookie) {
     console.log(cookie)
