@@ -633,13 +633,12 @@ header {
 
 .picturemenu {
   flex: 50%;
-  margin-top:5%;
-  margin-bottom:5%;
+  padding-top:5%;
+  padding-bottom:5%;
   justify-content: center;
   display:flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .inner {
@@ -656,8 +655,9 @@ header {
 
 #menuitem {
   border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:0 10px 27px rgba(0, 0, 0, 0.05);
   padding: 10px;
+  background-color: #FBEAF0;
 }
 
 #menutext {
@@ -680,9 +680,7 @@ header {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  background-color: #FEE2ED;
-
-  padding-bottom: 0px;
+  background-color: #CFACBA;
 }
 
 .menupage{
