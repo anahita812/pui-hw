@@ -1,8 +1,9 @@
 Readme:
-    Deployed website: https://anahita812.github.io/pui-hw/solution-hw6/productgallery.html
-    Repository link: https://github.com/anahita812/pui-hw/tree/main/solution-hw6
+    Deployed website: https://anahita812.github.io/pui-hw/kcj/webpages/productdetail.html
+    Repository link: https://github.com/anahita812/pui-hw/tree/main/kcj
 
 Citations:
-    https://medium.com/geekculture/object-equality-in-javascript-2571f609386e
-    https://stackoverflow.com/questions/2010892/how-to-store-objects-in-html5-localstorage-sessionstorage
-    
+    https://dev.to/devggaurav/let-s-build-a-responsive-navbar-and-hamburger-menu-using-html-css-and-javascript-4gci
+    https://alvarotrigo.com/blog/javascript-slider-how-to-make-one/ 
+
+    ... 
