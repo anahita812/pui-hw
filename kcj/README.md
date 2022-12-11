@@ -1,5 +1,5 @@
 Readme:
-    Deployed website: https://anahita812.github.io/pui-hw/kcj/productdetail.html
+    Deployed website: https://anahita812.github.io/pui-hw/kcj/webpages/productdetail.html
     Repository link: https://github.com/anahita812/pui-hw/tree/main/kcj
 
 Citations:
